@@ -1,0 +1,6 @@
+rootProject.name = 'geogson'
+include ':geogson-core'
+include ':geogson-jts'
+
+project(':geogson-core').projectDir = "$rootDir/core" as File
+project(':geogson-jts').projectDir = "$rootDir/jts" as File
