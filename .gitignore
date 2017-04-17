@@ -1,10 +1,17 @@
 target
 
-.idea
+**/*.iml
+**/*.idea
+**/*.orig
 .idea_modules
-*.iml
 
 .classpath
 .project
 
 .DS_Store
+
+tmp
+.gradle
+local.properties
+
+core/build
